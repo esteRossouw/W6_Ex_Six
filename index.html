@@ -11,15 +11,23 @@
 <body>
     <form>
         <h3>Spotify</h3>
-        <button class="form-input">SIGN IN</button>
-        <button class="form-input">SIGN UP</button>
+        <div class="buttons">
+            <p class="active">SIGN IN</p>
+            <p>SIGN UP</p>
+        </div>
     
-        <input class="form-input" type="text" placeholder="Username">
-        <input class="form-input" type="password" placeholder="Password">
+        <input class="form-input" type="email" placeholder="username">
+        <input class="form-input" type="password" placeholder="password">
+        <div class="check">
+            <input id="cb" type="checkbox" value="Stay Signed In">
+            <label for="cb">Stay Signed In</label>
+        </div>
+       
+        <button class="form-input" type="submit">Sign In</button>
 
-        <button class="form-input">stay signed in</button>
-
-        <button class="form-input">SIGN IN</button>
+        <div class="forgot">
+            <p>Forgot Password</p>
+        </div>
     </form>
     
 </body>
